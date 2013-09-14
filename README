@@ -6,7 +6,7 @@ EXAMPLE
 
   $ cgirunner -dir=/srv/cgi-bin -addr=localhost:8111 -root=/hello
 
-If in /srv/cgi-bin there's an executable CGI called "mama.cgi", it will be
+If in /srv/cgi-bin there's an executable called "mama.cgi", it will be
 available at http://localhost:8181/hello/mama.cgi.
 
 NOTE
