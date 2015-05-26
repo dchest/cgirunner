@@ -13,3 +13,7 @@ NOTE
 
 The program loads a list of CGIs during startup, so to serve new CGIs,
 it must be restarted.
+
+IMPORTANT
+
+Doesn't clean environment variables.
