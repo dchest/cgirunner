@@ -16,4 +16,5 @@ it must be restarted.
 
 IMPORTANT
 
-Doesn't clean environment variables.
+Doesn't clean environment variables. Depending on your CGI scripts,
+this may be a security risk. Use https://github.com/gnosek/fcgiwrap.
